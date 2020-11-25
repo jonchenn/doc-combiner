@@ -1,0 +1,23 @@
+{
+  "name": "doc-combiner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "doc-combiner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/jonchenn/doc-combiner.git",
+  "author": "Jon Chen <jonchen@google.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonchenn/doc-combiner/issues"
+  },
+  "homepage": "https://github.com/jonchenn/doc-combiner#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "fs-extra": "^9.0.1",
+    "glob": "^7.1.6",
+    "minimist": "^1.2.5",
+    "puppeteer": "^5.5.0"
+  }
+}

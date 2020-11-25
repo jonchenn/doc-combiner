@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const combiner = require('./doc-combiner.js');
+
+Promise.all([
+  combiner.begin()
+]).then(process.exit)
+.catch(reason => {
+  console.log(reason);
+  process.exit();
+});
