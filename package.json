@@ -15,9 +15,11 @@
   "homepage": "https://github.com/jonchenn/doc-combiner#readme",
   "dependencies": {
     "assert": "^2.0.0",
+    "fs": "0.0.1-security",
     "fs-extra": "^9.0.1",
     "glob": "^7.1.6",
     "minimist": "^1.2.5",
+    "pdfkit": "^0.11.0",
     "puppeteer": "^5.5.0"
   }
 }

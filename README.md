@@ -18,4 +18,7 @@ To convert a list of files with Regex to PNG screenshots:
 ./combiner "./docs/.*" ./output
 ```
 
-Please make sure to add quotes in the first argument, otherwise the Unix-like system will automatically break it into an array of arguments.
+* Please make sure to add quotes in the first argument, otherwise the Unix-like system will automatically break it into an array of arguments.
+
+This will generate the list of screenshots in PNGs, and a merged PDF file with all images.
+
